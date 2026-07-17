@@ -1,0 +1,28 @@
+# Environment / secrets — NEVER commit these
+.env
+
+# Generated data files
+learner_data.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Scratch / diagnostic files
+check_env.py
+check_output.txt
+test_key.py
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
